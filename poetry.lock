@@ -1,0 +1,26 @@
+[[package]]
+category = "main"
+description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+name = "appdirs"
+optional = false
+python-versions = "*"
+version = "1.4.3"
+
+[[package]]
+category = "main"
+description = "A pure Python Lex/Yacc that works with RPython"
+name = "rply"
+optional = false
+python-versions = "*"
+version = "0.7.7"
+
+[package.dependencies]
+appdirs = "*"
+
+[metadata]
+content-hash = "e009dff833f99e621e7558b9378257dd180f480f8123153481d9a3efc2ad1697"
+python-versions = "^3.6"
+
+[metadata.hashes]
+appdirs = ["9e5896d1372858f8dd3344faf4e5014d21849c756c8d5701f78f8a103b372d92", "d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e"]
+rply = ["2c8083bf2853642a0e24de9a9db3ce2d25b3153037a7298d2ff9434413744e33", "4d6d25703efd28fb3d5707f7b3bd4fe66c306159a5c25af10ba26d206a66d00d"]
